@@ -1,0 +1,4 @@
+python-telegram-bot==12.7
+requests==2.21.0
+strings==0.1.2
+pathlib==1.0.1
