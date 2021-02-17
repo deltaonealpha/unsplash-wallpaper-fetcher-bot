@@ -68,7 +68,7 @@ def download():
 		print("[+] Wallpaper [{}] successfully downloaded.".format(FILE_NAME))
 		#FILE_NAME = str(FILE_NAME).replace("wpunsplash", "unsplash")
 		#print(FILE_NAME)
-		return(str(os.getcwd()+"\\wp\\"+FILE_NAME))
+		return(str(os.getcwd()+"/wp/"+FILE_NAME))
 	except Exception as error:
 		print(error)
 		sleep(5)
